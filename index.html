@@ -53,11 +53,69 @@
         <!-- Modal -->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="modal-close-btn" data-modal-close>
-                <svg class="modal-close-icon" width="8" height="8">
-                    <use href="./img/symbol-defs.svg#icon-close_black" ></use>
-                </svg>
-              </button>
+                <h2 class="title-modal">Leave your contacts and we will call you back</h2>
+                <button type="button" class="modal-close-btn" data-modal-close>
+                    <svg class="modal-close-icon" width="8" height="8">
+                        <use href="./img/symbol-defs.svg#icon-close_black" ></use>
+                    </svg>
+                  </button>
+
+                <form action="">
+                    <label class="modal-label">
+                        <p class="user-name form-p">Name</p>
+                        <div class="icon-div">
+                          <svg class="svg-icon">
+                            <use href="./img/symbol-defs.svg#icon-Vector"></use>
+                          </svg>
+                          <input
+                            class="modal-input"
+                            type="text"
+                            name="user-name"
+                            required
+                          />
+                        </div>
+                      </label>
+
+                      <label class="modal-label">
+                        <p class="user-phone form-p">Phone</p>
+                        <div class="icon-div">
+                          <svg class="svg-icon">
+                            <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
+                          </svg>
+                          <input type="tel" name="user-phone" required />
+                        </div>
+                      </label>
+
+                      <label class="modal-label">
+                        <p class="user-email form-p">Email</p>
+                        <div class="icon-div">
+                          <svg class="svg-icon">
+                            <use href="./img/symbol-defs.svg#icon-Vector-2"></use>
+                          </svg>
+                          <input type="email" name="user-email" required />
+                        </div>
+                      </label>
+
+                      <label class="modal-label label-comment">
+                        <p class="user-comment form-p">Comment</p>
+                        <textarea
+                          class="text-comment"
+                          name="user_comment"
+                          placeholder="Text input"
+                        ></textarea>
+                      </label>
+
+                      <label class="label-checkbox">
+                        <input type="checkbox" class="checkbox" required />
+                        <p class="checkbox-paragraph form-p">
+                          I accept the terms and conditions of the
+                          <a href="#" class="privacy-link">Privacy Policy</a>
+                        </p>
+                      </label>
+
+                      <button type="submit" class="button-send">Send</button>
+                </form>
+              
             </div>
           </div>
         </div>
