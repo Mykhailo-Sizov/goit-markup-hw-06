@@ -823,6 +823,10 @@ img{
     color: #FFFFFF;
 }
 
+ul {
+    list-style: none;
+}
+
 .form-div-two {
     display: flex;
 }
