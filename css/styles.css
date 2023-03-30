@@ -313,15 +313,15 @@ ul {
     margin-bottom: 4px;
 }
 
-.icon-div {
+.icon-span {
     position: relative;
+    display: block;
 }
 
 .user-name {
     line-height: 1.33;
     letter-spacing: 0.04em;
 }
-
 
 .modal-label input {
     font-family: 'Roboto';
@@ -337,7 +337,7 @@ ul {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-div:focus-within {
+.icon-span:focus-within {
     fill: #4D5AE5;
 }
 
@@ -351,7 +351,7 @@ ul {
     position: absolute;
     top: 50%;
     left: 19px;
-    transform: translate(0, -50%);
+    transform: translate(-50%, -50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
