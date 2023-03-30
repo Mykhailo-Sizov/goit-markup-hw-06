@@ -300,17 +300,19 @@ ul {
 }
 
 .form-p {
+    display: block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.166;
     color: rgba(142, 143, 153, 1);
-    margin-top: 8px; 
-    margin-bottom: 4px;
+    padding-bottom: 4px; 
+    
 }
 
 .form-p-first {
+    display: block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -328,6 +330,10 @@ ul {
 .user-name {
     line-height: 1.33;
     letter-spacing: 0.04em;
+}
+
+.modal-label {
+    display: block;
 }
 
 .modal-label input {
