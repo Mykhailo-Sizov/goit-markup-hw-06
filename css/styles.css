@@ -298,11 +298,11 @@ ul {
 
 .form-p {
     display: block;
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.166;
+    /* line-height: 1.166; */
     color: rgba(142, 143, 153, 1);
     padding-bottom: 4px; 
     
@@ -318,6 +318,16 @@ ul {
     color: rgba(142, 143, 153, 1);
     padding-bottom: 4px;
 }
+
+/* .form-p-last {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.166;
+    color: rgba(142, 143, 153, 1);
+} */
 
 .icon-span {
     position: relative;
@@ -746,7 +756,7 @@ img{
     /* margin-left: 200px; */
     max-width: 1158px;
     padding: 0 15px;
-    margin: 0 aut
+    /* margin: 0 aut */
 }
 
 .section-footer{
