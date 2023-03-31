@@ -294,10 +294,7 @@ ul {
     padding-left: 38px;
 }
 
-.modal-label {
-    margin-bottom: 8px;
 
-}
 
 .form-p {
     display: block;
@@ -334,6 +331,7 @@ ul {
 
 .modal-label {
     display: block;
+    margin-bottom: 8px;
 }
 
 .modal-label input {
@@ -368,7 +366,12 @@ ul {
     
 }
 
+.label-comment {
+    margin-bottom: 0;
+}
+
 .text-comment {
+    display: block;
     resize: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -410,6 +413,7 @@ ul {
     line-height: 1.33;
     letter-spacing: 0.04em;
     margin: 0 0 0 8px;
+    padding-bottom: 0;
 }
 
 .checkbox {
