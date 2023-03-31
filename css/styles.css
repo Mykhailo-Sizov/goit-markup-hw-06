@@ -21,7 +21,7 @@ body {
     
 }
 
-h1,h2,h3,h4,h5,h6,ul,p {
+h1,h2,h3,h4,h5,h6,ul,p,b {
     margin: 0;
     padding: 0;
 }
@@ -322,6 +322,12 @@ ul {
 .icon-span {
     position: relative;
     display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
 }
 
 .user-name {
@@ -829,6 +835,7 @@ img{
 }
 
 .subscribe-title {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -879,6 +886,13 @@ ul {
     display: flex;
     padding: 8px 24px;
     border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     border: 0;
     cursor: pointer;
     margin-left: 24px;
@@ -891,22 +905,11 @@ ul {
     background-color: #404BBF;
 }
 
-.button-subscribe {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    margin-right: 16px;
-    padding: 0;
-    border: none;
-}
 
 .button-icon {
     display: inline-flex;
     align-items: center;
+    margin-left: 16px;
 }
 
 
