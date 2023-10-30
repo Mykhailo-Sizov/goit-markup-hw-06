@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -41,27 +42,33 @@
 
         <address class="adr-ss">
           <ul class="adr-ss-ul">
-            <li class="contacts link-header">
+            <li class="contacts link-header contacts-link-header">
               <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="contacts link-header">
-              <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <li class="contacts link-header contacts-tel">
+              <a class="contacts-link " href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
+        <button class="menu-btn" type="button">
+          <svg class="menu-icon-btn" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- HERO -->
     <main>
-      <section class="section hero-block">
+      <!-- <section class="section hero-block">
         <div class="container container-hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button-hero" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- First section after hero -->
-      <section class="section">
+
+      <!-- <section class="section">
         <div class="container">
           <h2 class="visually-hidden">our approach</h2>
           <ul class="privilege">
@@ -115,10 +122,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- section Our Team -->
-      <section class="section team-section">
+      
+      <!-- <section class="section team-section">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
           <ul class="our-team-ul">
@@ -290,9 +298,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Portfolio -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-ul">
@@ -407,11 +415,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
+
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-box-logo">
           <a class="logo-link-footer" href="./index.html">
@@ -455,10 +464,24 @@
             </li>
           </ul>
         </div>
+        <div class="footer-input-container">
+          <label class="fooer-label" for="subscribe-input">Subscribe</label>
+          <div class="footer-container-input">
+            <input class="footer-input" type="email" id="subscribe-input" name="user_mail" title="user_mail" required
+              placeholder="E-mail">
+            <button class="footer-button" type="submit">Subscribe
+              <svg class="footer-svg-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3">
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
-    </footer>
+    </footer> -->
+
     <!-- backdrop with modal -->
-    <div class="backdrop">
+
+    <!-- <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -553,6 +576,6 @@
           <button class="modal-send-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>

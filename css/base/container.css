@@ -1,0 +1,38 @@
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+            width: 768px;
+        }
+}
+
+@media screen and (min-width: 1128px) {
+    .container {
+        width: 1128px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+/* .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
