@@ -10,4 +10,5 @@
 /* layout */
 @import './layout/header.css';
 @import './layout/hero.css';
-@import './layout/first-section.css'
+@import './layout/first-section.css';
+@import './layout/ourteam.css'
