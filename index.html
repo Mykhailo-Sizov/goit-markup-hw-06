@@ -133,9 +133,10 @@
           <h2 class="our-team">Our Team</h2>
           <ul class="our-team-ul">
             <li class="our-team-li">
+           
               <img
                 class="team-img"
-                srcset="./images/markguerrero@2x.jpg 2x"
+                srcset="./images/markguerrero.jpg 1x, ./images/markguerrero@2x.jpg 2x"
                 src="./images/markguerrero.jpg"
                 alt="mark guerrero"
                 width="264"
@@ -177,7 +178,11 @@
             </li>
 
             <li class="our-team-li">
-              <img class="team-img" src="./images/tomford.jpg" alt="tom ford" width="264" />
+              
+              <img class="team-img"
+              srcset="./images/tomford.jpg 1x, ./images/tomford@2x.jpg 2x" 
+              src="./images/tomford.jpg" 
+              alt="tom ford" width="264" />
               <div class="foto-names">
                 <h3 class="title-team">Tom Ford</h3>
                 <p class="our-team-p">Frontend Developer</p>
@@ -217,6 +222,7 @@
             <li class="our-team-li">
               <img
                 class="team-img"
+                srcset="./images/camilagarcia.jpg 1x, ./images/camilagarcia@2x.jpg 2x"
                 src="./images/camilagarcia.jpg"
                 alt="camila garcia"
                 width="264"
@@ -258,12 +264,9 @@
             </li>
 
             <li class="our-team-li">
-              <img
-                class="team-img"
-                src="./images/danielwilson.jpg"
-                alt="daniel wilson"
-                width="264"
-              />
+              <img srcset="./images/danielwilson.jpg 1x, ./images/danielwilson@2x.jpg 2x" src="./images/danielwilson.jpg"  alt="daniel wilson"
+                width="264" />
+          
               <div class="foto-names">
                 <h3 class="title-team">Daniel Wilson</h3>
                 <p class="our-team-p">UI Designer</p>
@@ -309,12 +312,23 @@
           <ul class="portfolio-ul">
             <li class="portfolio-li">
               <div class="overlay-div">
-                <img
-                  class="portfolio-img"
-                  src="./images/bankingappinteraceconcept.jpg"
-                  alt="banking app interace concept"
-                  width="360"
-                />
+<picture>
+  
+
+  <source media="(min-width: 1158px)" srcset="./images/bankapp-desktop.jpg 1x, ./images/bankapp-desktop@2x.jpg 2x"
+    type="image/jpg" />
+  
+
+  <source media="(min-width: 768px)" srcset="./images/bankapp-tablet.jpg 1x, ./images/bankapp-tablet@2x.jpg 2x"
+    type="image/jpg" />
+  
+
+  <source media="(max-width: 767px)" srcset="./images/bankapp-mobile.jpg 1x, ./images/bankapp-mobile@2x.jpg 2x"
+    type="image/jpg" />
+  <img class="card-img" src="./images/bankapp-desktop.jpg" alt="banking app interace concept" width="360" height="300" loading="lazy" />
+</picture>
+
+               
                 <p class="ovrelay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                   Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -423,7 +437,7 @@
 
     <!-- FOOTER -->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-box-logo">
           <a class="logo-link-footer" href="./index.html">
@@ -480,7 +494,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- backdrop with modal -->
 
