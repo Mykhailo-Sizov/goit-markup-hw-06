@@ -11,4 +11,7 @@
 @import './layout/header.css';
 @import './layout/hero.css';
 @import './layout/first-section.css';
-@import './layout/ourteam.css'
+@import './layout/ourteam.css';
+@import './layout/modal.css';
+@import './layout/footer.css';
+
