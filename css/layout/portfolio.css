@@ -13,14 +13,25 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 48px 24px;
+    gap: 40px 24px;
 }
 
+@media screen and (min-width: 767px){
+    .portfolio-li{
+        width: calc((100% - 3*24px)/2);
+       
+    }
 
-.portfolio-li {
-    width: calc((100% - 4*24px)/3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .portfolio-ul {
+        gap: 72px 24px;
+        }
+}
 
+@media screen and (min-width: 1158px) {
+    .portfolio-li {
+     width: calc((100% - 4*24px)/3);
+     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .overlay-div {
