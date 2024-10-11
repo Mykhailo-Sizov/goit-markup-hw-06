@@ -42,27 +42,59 @@
     margin-bottom: 40px;
 }
 
+/*  */
 
 .mobile-nav {
     margin-top: 168px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
-.mobile-nav:not(:last-child) {
-    margin-bottom: 24px;
+
+.mobile-menu-contacts {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
 }
 
 .mobile-nav-address {
-   
-        color: #434455;;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-       
+    color: #434455;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    
 }
+.current-list {
+    color: #404BBF;
+}
+
+
+
+/*  */
 
 .mobile-social {
     margin-top: 48px;
     display: flex;
     gap: 40px;
+}
+
+.modile-menu-list {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.mobile-menu-svg {
+    fill: #F4F4FD;
 }
