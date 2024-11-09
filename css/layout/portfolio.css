@@ -13,12 +13,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px 24px;
+    gap: 48px 24px;
 }
 
-@media screen and (min-width: 767px){
+@media screen and (min-width: 768px){
     .portfolio-li{
-        width: calc((100% - 3*24px)/2);
+        width: calc((100% - 24px)/2);
        
     }
 
@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 1158px) {
     .portfolio-li {
-     width: calc((100% - 4*24px)/3);
+     width: calc((100% - 2*24px)/3);
      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }

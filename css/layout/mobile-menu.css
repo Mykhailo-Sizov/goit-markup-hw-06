@@ -1,3 +1,11 @@
+.mobile-menu-container {
+    padding-top: 72px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -9,12 +17,15 @@
     visibility: hidden;
 }
 
-.mobile-menu .is-open {
+.mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
 
+.nav-menu {
+    margin-bottom: auto;
+}
 
 .mob-menu-close-btn {
     position: absolute;
@@ -31,7 +42,7 @@
 }
 
 .mobile-menu-nav {
-    margin-top: 72px;
+   
 }
 
 .mobile-list-nav {
@@ -54,8 +65,7 @@
 /*  */
 
 .mobile-nav {
-    margin-top: 168px;
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }

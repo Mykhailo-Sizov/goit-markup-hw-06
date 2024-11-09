@@ -3,14 +3,15 @@
 
 .hero-block {
     background-color: #2E2F42;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/mobile-hero.jpg);
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/mobile-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     padding-top: 72px;
     padding-bottom: 72px;
-
+    max-width: 320px;
+    margin: 0 auto;
    
 }
 
@@ -52,15 +53,16 @@
 screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
     .hero-block {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/mobile-hero@2.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/mobile-hero@2.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
     .hero-block {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/tablet-hero.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/tablet-hero.jpg);
         padding-top: 112px;
         padding-bottom: 112px;
+        max-width: 768px;
     }
 
     .hero-title {
@@ -80,15 +82,16 @@ screen and (min-device-pixel-ratio: 2) {
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .hero-block {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/tablet-hero@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/tablet-hero@2x.jpg);
     }
 }
 
 @media screen and (min-width: 1158px) {
     .hero-block {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/bg-fon.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/bg-fon.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
     }
 
     .hero-title {
@@ -113,7 +116,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1158px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .hero-block {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office@2x.jpg); 
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office@2x.jpg); 
     }
 }
 
